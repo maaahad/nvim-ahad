@@ -25,6 +25,7 @@ return {
       ["<leader><tab>"] = { name = "+tabs" },
       ["<leader>w"] = { name = "+[ w ]indows" },
       ["<leader>n"] = { name = "+[ n ]ew of or set [ n ]o to" },
+      ["<leader>e"] = { name = "+[ e ]xplore" },
     },
   },
   config = function(_, opts)
