@@ -18,6 +18,9 @@ end
 Map("i", "jk", "<ESC>", {desc = "Exit insert mode with [ jk ]"})
 Map("i", "§", "<ESC>", {desc = "Exit insert mode with [ § ]"})
 
+-- quit nvim 
+Map("n", "<leader>qq", "<cmd>qa<cr>", {desc = "[ q ]uit all"})
+
 -- clear search highlight
 Map("n", "<leader>nh", ":nohl<CR>", {desc = "[ n ]o search [ h ]ighlights"})
 

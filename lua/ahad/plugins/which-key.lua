@@ -13,7 +13,6 @@ return {
       ["<leader>b"] = { name = "+buffer" },
       ["<leader>c"] = { name = "+code" },
       ["<leader>gh"] = { name = "+hunks", ["_"] = "which_key_ignore" },
-      ["<leader>q"] = { name = "+quit/session" },
       ["<leader>s"] = { name = "+search" },
       ["<leader>u"] = { name = "+ui" },
       ["<leader>x"] = { name = "+diagnostics/quickfix" },
@@ -26,6 +25,8 @@ return {
       ["<leader>w"] = { name = "+[ w ]indows" },
       ["<leader>n"] = { name = "+[ n ]ew of or set [ n ]o to" },
       ["<leader>e"] = { name = "+[ e ]xplore" },
+      ["<leader>s"] = { name = "+[ s ]ession / [ s ]earch" },
+      ["<leader>q"] = { name = "+[ q ]uit" },
     },
   },
   config = function(_, opts)
