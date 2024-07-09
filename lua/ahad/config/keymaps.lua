@@ -25,9 +25,8 @@ Map("n", "<leader>qq", "<cmd>qa<cr>", {desc = "[ q ]uit all"})
 Map("n", "<leader>nh", ":nohl<CR>", {desc = "[ n ]o search [ h ]ighlights"})
 
 -- increment and decrement
-Map("n", "++", "<C-a>", {desc = "increment [ ++ ] number"})
-Map("n", "--", "<C-x>", {desc = "decrement [ -- ] number"})
-
+Map("n", "<leader>++", "<C-a>", {desc = "increment [ ++ ] number"})
+Map("n", "<leader>--", "<C-x>", {desc = "decrement [ -- ] number"})
 
 -- window size using <leader> em
 Map("n", "<leader>we", "<C-w>=", {desc = "Make [ w ]indow [ e ]qual size"})
