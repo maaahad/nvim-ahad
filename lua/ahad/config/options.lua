@@ -12,6 +12,14 @@ local opt = vim.opt
 opt.number = true  -- line number
 opt.relativenumber = true -- relative line number
 
+-- line number colors
+-- LineNr, CursorLineNr, LineNrAbove, LineNrBelow
+-- vim.api.nvim_set_hl(0, 'LineNr', { fg = "LightGrey"})
+-- vim.api.nvim_set_hl(0, 'CursorLineNr', { fg = "White"})
+-- vim.api.nvim_set_hl(0, 'LineNrAbove', { fg = "DarkGreen"})
+-- vim.api.nvim_set_hl(0, 'LineNrBelow', { fg = "DarkGreen"})
+
+
 -- enable mouse mode
 opt.mouse = "a"
 
