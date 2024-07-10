@@ -21,7 +21,7 @@ return {
       ["<leader>p"] = { name = "+[ p ]ersistence" },
       ["<leader>f"] = { name = "+[ f ]ile / [ f ]ind" },
       ["<leader>g"] = { name = "+[ g ]it" },
-      ["<leader><tab>"] = { name = "+tabs" },
+      ["<leader><tab>"] = { name = "+[ tab ]s" },
       ["<leader>w"] = { name = "+[ w ]indows" },
       ["<leader>n"] = { name = "+[ n ]ew of or set [ n ]o to" },
       ["<leader>e"] = { name = "+[ e ]xplore" },
