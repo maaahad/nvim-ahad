@@ -30,8 +30,8 @@ Map("n", "<leader>nh", ":nohl<CR>", {desc = "[ n ]o search [ h ]ighlights"})
 
 
 -- ====================================== INCREMENT / DECREMENT ======================================
-Map("n", "<leader>++", "<C-a>", {desc = "increment [ ++ ] number"})
-Map("n", "<leader>--", "<C-x>", {desc = "decrement [ -- ] number"})
+Map("n", "<leader>+", "<C-a>", {desc = "increment [ + ] number"})
+Map("n", "<leader>-", "<C-x>", {desc = "decrement [ - ] number"})
 
 
 

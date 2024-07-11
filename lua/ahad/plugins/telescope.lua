@@ -7,10 +7,11 @@ return {
 
 
 		-- key maps
-		vim.keymap.set('n', '<leader>ff', builtin.find_files, {desc = "[ f ]ind [ f ]iles"})
-		vim.keymap.set('n', '<leader>fg', builtin.live_grep, {desc = "[ f ]ind by live [ g ]rep"})
-		vim.keymap.set('n', '<leader>fb', builtin.buffers, { desc = "[ f ]ind [ b ]uffers"})
-		vim.keymap.set('n', '<leader>fh', builtin.help_tags, { desc = "[ f ]ind [ h ]elp tags"})
+		vim.keymap.set('n', '<leader>tf', builtin.find_files, {desc = "Find [ f ]iles"})
+		vim.keymap.set('n', '<leader>ts', builtin.live_grep, {desc = "Find by live [ s ]earch / grep"})
+		vim.keymap.set('n', '<leader>tb', builtin.buffers, { desc = "Find [ b ]uffers"})
+		vim.keymap.set('n', '<leader>th', builtin.help_tags, { desc = "Find [ h ]elp tags"})
+    vim.keymap.set('n', '<leader>tg', builtin.git_files, { desc = "Find [ g ]it files"})
 	end
 
 }

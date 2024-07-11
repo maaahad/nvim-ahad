@@ -27,6 +27,7 @@ return {
       ["<leader>e"] = { name = "+[ e ]xplore" },
       ["<leader>s"] = { name = "+[ s ]ession / [ s ]earch" },
       ["<leader>q"] = { name = "+[ q ]uit" },
+      ["<leader>t"] = { name = "+[ t ]elescope" },
     },
   },
   config = function(_, opts)
