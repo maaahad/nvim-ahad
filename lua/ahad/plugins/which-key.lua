@@ -1,6 +1,10 @@
 return {
   "folke/which-key.nvim",
   event = "VeryLazy",
+  init = function()
+    vim.o.timeout = true
+    vim.o.timeoutlen = 500
+  end,
   opts = {
     plugins = { spelling = true },
     defaults = {
@@ -27,7 +31,6 @@ return {
       ["<leader>e"] = { name = "+[ e ]xplore" },
       ["<leader>s"] = { name = "+[ s ]ession / [ s ]earch" },
       ["<leader>q"] = { name = "+[ q ]uit" },
-      ["<leader>t"] = { name = "+[ t ]elescope" },
     },
   },
   config = function(_, opts)
