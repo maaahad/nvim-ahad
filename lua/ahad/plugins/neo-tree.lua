@@ -15,6 +15,9 @@ return {
 
 
     --keymaps 
-    vim.keymap.set("n", "<leader>ef", ":Neotree<CR>", {desc = "[ e ]xplore [ f ]iles"})
-  end
+    vim.keymap.set("n", "<leader>ee", "<cmd>Neotree toggle<CR>", {desc = "[ e ]xplorar toggle"})
+    vim.keymap.set("n", "<leader>et", "<cmd>Neotree toggle<CR>", {desc = "[ e ]xplorar  [ t ]oggle"})
+    vim.keymap.set("n", "<leader>eb", "<cmd>Neotree buffers<CR>", {desc = "[ e ]xplore [ b ]uffers"})
+    vim.keymap.set("n", "<leader>eg", "<cmd>Neotree git_status<CR>", {desc = "[ e ]xplore [ g ]it status"})
+end
 }

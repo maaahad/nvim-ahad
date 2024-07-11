@@ -57,5 +57,5 @@ Map("n", "<leader><tab>p", "<cmd>tabp<CR>", {desc = "To [ p ]revious tab"})
 Map("n", "<leader><tab>b", "<cmd>tabnew %<CR>", {desc = "Open current [ b ]uffer in a new tab"})
 
 
--- paste without putting the deleted stuff to paste register
-Map("x", "<leader>p", "\"_dp")
+-- -paste without putting the deleted stuff to paste register
+Map("x", "<leader>pp", "\"_dp")
