@@ -25,5 +25,11 @@ return {
     wk.setup(opts)
     -- adding keymaps
     wk.add(opts.defaults)
+    -- TODO: remove if does not feel right after testing
+    -- show hydra mode for changing windo for changing windoww (testing)
+    -- wk.show({
+    --   keys = "<c-w>", 
+    --   loop = true, -- this will keep the popup open until you hit <esc>
+    -- })
   end,
 }

@@ -59,5 +59,9 @@ Map("n", "<leader><tab>b", "<cmd>tabnew %<CR>", {desc = "Open current [ b ]uffer
 
 -- ====================================== BUFFER ======================================
 
+-- ====================================== LazyVim ======================================
+Map("n", "<leader>l", "<cmd>Lazy<CR>", { desc = "[ l ]azy vim"})
+
+
 -- -paste without putting the deleted stuff to paste register
 Map("x", "<leader>pp", "\"_dp")
