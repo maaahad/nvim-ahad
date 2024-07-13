@@ -10,7 +10,11 @@ vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 -- lazy setup 
 
 require("lazy").setup("ahad.plugins", {
+  checker = {
+    enabled = true, 
+    notify = false, 
+  }, 
   change_detection = {
     notify = false, 
-  }
+  }, 
 })
