@@ -4,7 +4,7 @@
   "dashboard-nvim": { "branch": "master", "commit": "40ac8bf942895aeb3c1a61e555c1ebc55b35b632" },
   "dressing.nvim": { "branch": "master", "commit": "6741f1062d3dc6e4755367a7e9b347b553623f04" },
   "everforest-nvim": { "branch": "main", "commit": "8fdccd1e45088be3309aaf82072b1f7fec2f6f2c" },
-  "lazy.nvim": { "branch": "main", "commit": "6e66f8e6550dd22467c11284e638dfccb5d514e4" },
+  "lazy.nvim": { "branch": "main", "commit": "b02c9eae6a250f98908c146d1dc1a891f5019f0a" },
   "lualine.nvim": { "branch": "master", "commit": "6a40b530539d2209f7dc0492f3681c8c126647ad" },
   "neo-tree.nvim": { "branch": "v3.x", "commit": "29f7c215332ba95e470811c380ddbce2cebe2af4" },
   "nui.nvim": { "branch": "main", "commit": "61574ce6e60c815b0a0c4b5655b8486ba58089a1" },
@@ -18,5 +18,5 @@
   "vim-be-good": { "branch": "master", "commit": "4fa57b7957715c91326fcead58c1fa898b9b3625" },
   "vim-maximizer": { "branch": "master", "commit": "2e54952fe91e140a2e69f35f22131219fcd9c5f1" },
   "vim-tmux-navigator": { "branch": "master", "commit": "5b3c701686fb4e6629c100ed32e827edf8dad01e" },
-  "which-key.nvim": { "branch": "main", "commit": "05bd8701dd5d7e90b2f5c4ae05f9471641400bed" }
+  "which-key.nvim": { "branch": "main", "commit": "30cf839c82bcc0f90be951f8834c256c1cdc295c" }
 }

@@ -27,62 +27,97 @@ return {
         -- stylua: ignore
         center = {
           {
-            action = "lua lazyvim.pick()()",
-            desc = " find file",
-            icon = " ",
-            key = "f",
+            icon = ' ',
+            icon_hl = 'Title',
+            desc = 'Find File           ',
+            desc_hl = 'String',
+            key = 'b',
+            keymap = 'SPC f f',
+            key_hl = 'Number',
+            key_format = ' %s', -- remove default surrounding `[]`
+            action = 'lua print(2)'
           },
           {
-            action = "ene | startinsert",
-            desc = " new file",
-            icon = " ",
-            key = "n",
-          },
-          {
-            action = 'lua lazyvim.pick("oldfiles")()',
-            desc = " recent files",
-            icon = " ",
-            key = "r",
-          },
-          {
-            action = 'lua lazyvim.pick("live_grep")()',
-            desc = " find text",
-            icon = " ",
-            key = "g",
-          },
-          {
-            action = "lua lazyvim.pick.config_files()()",
-            desc = " config",
-            icon = " ",
-            key = "c",
+            icon = ' ',
+            desc = 'Find Dotfiles',
+            key = 'f',
+            keymap = 'SPC f d',
+            key_format = ' %s', -- remove default surrounding `[]`
+            action = 'lua print(3)'
           },
           {
             action = 'lua require("persistence").load()',
-            desc = " restore session",
+            desc = "Restore session",
             icon = " ",
             key = "s",
-          },
-          {
-            action = "lazyextras",
-            desc = " lazy extras",
-            icon = " ",
-            key = "x",
-          },
-          {
-            action = "lazy",
-            desc = " lazy",
-            icon = "󰒲 ",
-            key = "l",
           },
           {
             action = function()
               vim.api.nvim_input("<cmd>qa<cr>")
             end,
-            desc = " quit",
+            desc = "Quit",
             icon = " ",
             key = "q",
-          },
+          }
         },
+        -- center = {
+        --   {
+        --     action = "lua lazyvim.pick()()",
+        --     desc = " find file",
+        --     icon = " ",
+        --     key = "f",
+        --   },
+        --   {
+        --     action = "ene | startinsert",
+        --     desc = " new file",
+        --     icon = " ",
+        --     key = "n",
+        --   },
+        --   {
+        --     action = 'lua lazyvim.pick("oldfiles")()',
+        --     desc = " recent files",
+        --     icon = " ",
+        --     key = "r",
+        --   },
+        --   {
+        --     action = 'lua lazyvim.pick("live_grep")()',
+        --     desc = " find text",
+        --     icon = " ",
+        --     key = "g",
+        --   },
+        --   {
+        --     action = "lua lazyvim.pick.config_files()()",
+        --     desc = " config",
+        --     icon = " ",
+        --     key = "c",
+        --   },
+        --   {
+        --     action = 'lua require("persistence").load()',
+        --     desc = " restore session",
+        --     icon = " ",
+        --     key = "s",
+        --   },
+        --   {
+        --     action = "lazyextras",
+        --     desc = " lazy extras",
+        --     icon = " ",
+        --     key = "x",
+        --   },
+        --   {
+        --     action = "lazy",
+        --     desc = " lazy",
+        --     icon = "󰒲 ",
+        --     key = "l",
+        --   },
+        --   {
+        --     action = function()
+        --       vim.api.nvim_input("<cmd>qa<cr>")
+        --     end,
+        --     desc = " quit",
+        --     icon = " ",
+        --     key = "q",
+        --   },
+        -- },
         footer = function()
           local stats = require("lazy").stats()
           local ms = (math.floor(stats.startuptime * 100 + 0.5) / 100)
