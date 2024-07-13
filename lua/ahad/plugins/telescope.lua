@@ -26,6 +26,7 @@ config = function()
   telescope.load_extension("fzf")
 
   -- key maps
+  vim.keymap.set('n', '<leader><leader>', builtin.find_files, {desc = "[ f ]ind [ f ]iles"})
   vim.keymap.set('n', '<leader>ff', builtin.find_files, {desc = "[ f ]ind [ f ]iles"})
   vim.keymap.set('n', '<leader>fs', builtin.live_grep, {desc = "[ f ]ind by live [ s ]earch / grep in cwd"})
   vim.keymap.set('n', '<leader>fb', builtin.buffers, { desc = "[ f ]ind [ b ]uffers"})
