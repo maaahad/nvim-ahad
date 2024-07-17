@@ -9,7 +9,7 @@ vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 
 -- lazy setup 
 
-require("lazy").setup("ahad.plugins", {
+require("lazy").setup({{ import =  "ahad.plugins"}, {import = "ahad.plugins.lsp"}}, {
   checker = {
     enabled = true, 
     notify = false, 
