@@ -25,6 +25,7 @@ return {
         -- See `:help vim.lsp.*` for documentation on any of the below functions
         local opts = { buffer = ev.buf, silent = true }
 
+        -- TODO: (maaahad) need better mapping
         -- set keybinds
         opts.desc = "Show LSP [ R ]eferences"
         keymap.set("n", "gR", "<cmd>Telescope lsp_references<CR>", opts) -- show definition, references
