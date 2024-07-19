@@ -18,6 +18,7 @@ return {
       { "<leader>e" , group = "+[ e ]xplore" },
       { "<leader>s" , group = "+[ s ]ession / [ s ]earch" },
       { "<leader>q" , group = "+[ q ]uit" },
+      { "<leader>t" , group = "+[ t ]rouble" },
     },
   },
   config = function(_, opts)
