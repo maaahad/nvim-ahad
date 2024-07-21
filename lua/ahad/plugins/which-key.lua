@@ -18,6 +18,7 @@ return {
 			{ "<leader>s", group = "+[ s ]ession / [ s ]earch" },
 			{ "<leader>q", group = "+[ q ]uit" },
 			{ "<leader>t", group = "+[ t ]rouble" },
+			{ "<leader>l", group = "+[ l ]azy [git | vim]" },
 		},
 	},
 	config = function(_, opts)
