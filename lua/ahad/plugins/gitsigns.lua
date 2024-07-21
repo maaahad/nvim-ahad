@@ -30,8 +30,23 @@ return {
 			map("n", "<leader>ghR", gs.reset_buffer, "[ r ]eset buffer")
 
 			map("n", "<leader>ghu", gs.undo_stage_hunk, "[ u ]undo stage [ h ]hunk")
+			map("n", "<leader>ghp", gs.preview_hunk, "[ p ]review [ h ]hunk")
 
 			-- TODO: blame
+			map("n", "<leader>ghb", function()
+				gs.blame_line({ full = true })
+			end, "[ b ]lame line")
+			map("n", "<leader>gtb", gs.toggle_current_line_blame, "[ t ]oggle current line [ B ]lame")
+
+			-- diff
+			map("n", "<leader>ghd", gs.diffthis, "[ d ]iff this")
+			map("n", "<leader>ghD", function()
+				gs.diffthis("~")
+			end, "[ d ]iff this ~")
+			map("n", "<leader>gtd", gs.toggle_deleted, "[ t ]oggle [ d ]eleted")
+
+			-- Text deleted
+			map({ "o", "x" }, "ih", ":<C-U>Gitsigns select_hunk<CR>", "Gitsigns select [ h ]unk")
 		end,
 	},
 }
