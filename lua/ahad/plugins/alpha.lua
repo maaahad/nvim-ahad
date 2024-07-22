@@ -17,6 +17,7 @@ return {
     ]]
 
 		--set menu
+		-- more config ref: https://github.com/LunarVim/LunarVim/issues/2801
 		dashboard.section.buttons.val = {
 			dashboard.button("e", "  > New File", "<cmd>ene<CR>"),
 			dashboard.button("SPC ee", "  > Toggle file explorer", "<cmd>Neotree toggle<CR>"),

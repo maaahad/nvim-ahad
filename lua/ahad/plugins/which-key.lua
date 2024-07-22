@@ -19,6 +19,7 @@ return {
 			{ "<leader>q", group = "+[ q ]uit" },
 			{ "<leader>t", group = "+[ t ]rouble" },
 			{ "<leader>l", group = "+[ l ]azy [git | vim]" },
+			{ "<leader>h", group = "+[ h ]arpoon" },
 		},
 	},
 	config = function(_, opts)
