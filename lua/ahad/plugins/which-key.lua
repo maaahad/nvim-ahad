@@ -15,11 +15,12 @@ return {
 			{ "<leader>w", group = "+[ w ]indows" },
 			{ "<leader>n", group = "+[ n ]ew of or set [ n ]o to" },
 			{ "<leader>e", group = "+[ e ]xplore" },
-			{ "<leader>s", group = "+[ s ]ession / [ s ]earch" },
+			{ "<leader>s", group = "+[ s ]ession / [ s ]earch / [ s ]witch" },
 			{ "<leader>q", group = "+[ q ]uit" },
 			{ "<leader>t", group = "+[ t ]rouble" },
 			{ "<leader>l", group = "+[ l ]azy [git | vim]" },
 			{ "<leader>h", group = "+[ h ]arpoon" },
+			{ "<leader>o", group = "+[ o ]n/[ o ]ff/[ o ]pen" },
 		},
 	},
 	config = function(_, opts)
