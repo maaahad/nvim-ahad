@@ -9,7 +9,7 @@ vim.g.maplocalleader = "\\"
 local opt = vim.opt
 
 -- line numbers
-opt.number = true  -- line number
+opt.number = true -- line number
 opt.relativenumber = true -- relative line number
 
 -- line number colors
@@ -19,13 +19,12 @@ opt.relativenumber = true -- relative line number
 -- vim.api.nvim_set_hl(0, 'LineNrAbove', { fg = "DarkGreen"})
 -- vim.api.nvim_set_hl(0, 'LineNrBelow', { fg = "DarkGreen"})
 
-
 -- enable mouse mode
 opt.mouse = "a"
 
 -- tab and indentation
 opt.tabstop = 2 -- 2 spaces for tab (prettier default)
-opt.shiftwidth= 2 -- 2 shift width
+opt.shiftwidth = 2 -- 2 shift width
 opt.expandtab = true -- expand tab to spaces
 opt.shiftround = true -- round indent
 opt.autoindent = true -- copy indent from current line when starting new line
@@ -51,9 +50,9 @@ opt.backspace = "indent,eol,start" -- allow backspace on indent, end of line or 
 -- clipboard
 opt.clipboard:append("unnamedplus") -- use system clipboard as default register
 
--- split window 
-opt.splitright = true  -- split vertical window to the right 
-opt.splitbelow = true  -- split horizontal window to the bottom
+-- split window
+opt.splitright = true -- split vertical window to the right
+opt.splitbelow = true -- split horizontal window to the bottom
 
 -- turn off swap file
 opt.swapfile = false
