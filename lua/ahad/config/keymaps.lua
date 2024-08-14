@@ -1,7 +1,6 @@
 -- TODO
 -- leader
 vim.g.leader = " "
-map = vim.keymap.set
 
 -- util func
 function Map(mode, lhs, rhs, opts)

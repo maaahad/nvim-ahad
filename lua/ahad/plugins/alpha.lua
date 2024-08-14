@@ -28,10 +28,11 @@ return {
 	-- ╱         ╱        _╱         ╱         ╱   ╱         ╱         ╱         ╱         ╱
 	-- ╲___╱____╱╲____╱___╱╲________╱╲___╱____╱    ╲___╱____╱╲___╱____╱╲___╱____╱╲________╱
 	--     ]]
-	-- 	-- dashboard.section.buttons.val = {
-	-- 	-- 	dashboard.button("e", "  New file", ":ene <BAR> startinsert <CR>"),
-	-- 	-- 	dashboard.button("q", "󰅚  Quit NVIM", ":qa<CR>"),
-	-- 	-- }
+	--
+	-- 	dashboard.section.buttons.val = {
+	-- 		dashboard.button("e", "  New file", ":ene <BAR> startinsert <CR>"),
+	-- 		dashboard.button("q", "󰅚  Quit NVIM", ":qa<CR>"),
+	-- 	}
 	--
 	-- 	dashboard.config.opts.noautocmd = true
 	--
