@@ -4,7 +4,7 @@ return {
 	main = "ibl",
 	config = function()
 		local ibl = require("ibl")
-		local hooks = require("ibl.hooks")
+		-- local hooks = require("ibl.hooks")
 
 		-- highlighting
 		-- local highlight = {
@@ -31,7 +31,8 @@ return {
 
 		local opts = {
 			indent = {
-				-- char = "┊",
+				char = "│",
+				tab_char = "│",
 				-- highlight = highlight,
 			},
 		}
